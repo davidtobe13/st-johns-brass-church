@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St John's Ang. Church Brass</title>
+    <link rel="stylesheet" href="church.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
+
+    <style>
+        .word-part {
+            font-family: Arial, sans-serif;
+        }
+        .bottom {
+            display: inline-block;
+        }
+        #changing-word {
+            position: relative;
+            font-weight: 900;
+        }
+        #changing-word::after {
+            content: '|';
+            position: absolute;
+            right: -10px;
+            animation: blink 0.7s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header class="Hero-Section">
+        <nav>
+            <div class="logo">
+                <div class="newLogo">
+                    <img src="logo1.png" alt="logo"> 
+                </div>
+                <img src="logo2.png" alt="logo"> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Services</a></li>
+                <li><a href="#services">Activities</a></li>
+                <li><a href="#sermons">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to</h2>
+            <div class="word-part top"> ST JOHN'S</div>
+            <div class="Word-part top"> ANG. CHURCH, BRASS.</div>
+            <!-- <div class="Word-part bottom"> ...Where every Soul finds a Home...</div> -->
+            <div class="word-part bottom">
+                ...Where every Soul finds <span id="changing-word">a Home</span>
+            </div>
+            <button>See Activities</button>
+        </div>
+    </section>
+
+    <div class="Clergy">
+        <div class="Clergytop">
+            <h3> Meet Our Clergy</h3>
+            <h5>The Men of God in our Church</h5>
+        </div>
+        <div class="slider">
+                <div class="slide">
+                    <img src="123.png" alt="Image 1">
+                    <h6>Canon John Nwankwo</h6>
+                    <h4> Vicar</h4>
+                </div>
+                <div class="slide">
+                    <img src="112.png" alt="Image 2">
+                    <h6>Rev'd Roland Udowa</h6>
+                    <h4>Vicar</h4>
+                </div>
+                <div class="slide">
+                    <img src="114.png" alt="Image 3">
+                    <h6>Rev'd Roland Udowa</h6>
+                    <h4> Vicar</h4>
+                </div>
+            </div>
+
+    </div>
+        <div class="Service-content"> 
+            <div class="serviceText">
+                <h2>Services</h2>
+                <h3> See what we do</h3>
+            </div>
+            <div class="servicecontainer">
+                <div class="image-box">
+                    <img src="scholar.jpg" alt="Image 1">
+                    <div class="service-text">
+                    <h3>Scholarships</h3>
+                    <h4>Scholarships for  children of members in university and 50% discount for members children in the church school.</h4>
+                    </div>
+                    <button>Learn More</button>
+                </div>
+                <div class="image-box">
+                    <img src="empower.jpg" alt="Image 2">
+                    <div class="service-text">
+                    <h3>Empowerment Programmes</h3>
+                    <h4>We empower our members by teaching them some skills whcih would help them to survive in the society.</h4>
+                    </div>
+                    <button>Learn More</button>
+                </div>
+                <div class="image-box">
+                    <img src="cummun.jpg" alt="Image 3">
+                    <div class="service-text">
+                    <h3>Community Outreach</h3>
+                    <h4>Our Church engages in community programmes that fosters giving out of food items and clothings to the needy.</h4>
+                    </div>
+                    <button>Learn More</button>
+                </div>
+                <div class="image-box">
+                    <img src="transport.jpg" alt="Image 4">
+                    <div class="service-text">
+                    <h3>Transportation Service</h3>
+                    <h4>Ohe Church provides buses every Sunday for members coming from Boundary/Ajegunle axis. </h4>
+                    </div>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            </div>
+
+    <div class="Activities">
+        <div class="activitiestop">
+            <h2>Activities</h2>
+            <p>Our Weekly Activities.</p>
+        </div>
+        <div class="activitiesbody">
+            <div class=" activitiesleft">
+                <div class="activitiesup">
+                    <img src="12.png" alt="Image">
+                    <div class="activitiesside">
+                        <h3>Sunday Services</h3>
+                        <p>1st Service</p>
+                        <p>6:30am-8:00am </p>
+                        <p>2nd Service </p>
+                        <p>8:00am-10:30am </p>
+                    </div>
+                </div>
+                <div class="activitiesup">
+                    <img src="worship.jpg" alt="Image">
+                    <div class="activitiesside">
+                        <h3>Wednesday</h3>
+                        <p> Miracle Hour</p>
+                        <p>6:00pm-8:00pm</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class=" activitiesleft">
+                <div class="activitiesup">
+                    <img src="vigil.jpg" alt="Image">
+                    <div class="activitiesside">
+                        <h3>Thursday</h3>
+                        <p>Faith Clinic</p>
+                        <p>9:00am-10:00am </p>
+                        <p>Choir Practice </p>
+                        <p>6:30pm-8:00pm </p>
+                    </div>
+                </div>
+                <div class="activitiesup">
+                    <img src="choir.jpg" alt="Image">
+                    <div class="activitiesside">
+                        <h3>Saturday</h3>
+                        <p>Girl's Guild</p>
+                        <p>5:00pm-6:00pm </p>
+                        <p>Choir Practice </p>
+                        <p>6:30pm-8:00pm </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+  
+        <!-- <div class="Clergy">
+            <div class="UpcomingPro">
+                <h3>Upcoming Programmes</h3>
+                <h5>See our upcoming programmes</h5>
+            </div>
+            <div class="slider">
+                    <div class="slide">
+                
+                </div> -->
+
+                
+    <div class="Service-content"> 
+        <div class="serviceText">
+            <h2>Upcoming Programmes</h2>
+            <h3>See our upcoming programmes</h3>
+        </div>
+        <div class="servicecontainer">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carouselImage"><img src="praying.png" alt="Slide 1"></div>
+                        <div class="carouselImage"><img src="kkk.jpg"
+                                alt="Slide 1"></div>
+                        <div class="carouselImage"><img
+                                src="worshiping.png"
+                                alt="Slide 1"></div>
+                    </div>
+                    <div class="carousel-item neww">
+                        <img src="lsss.jpg" alt="Slide 2">
+                    </div>
+
+                    <div class="carousel-item active">
+                        <div class="carouselImage"><img src="dddd.jpg" alt="Slide 1"></div>
+                        <div class="carouselImage"><img src="eee.jpg"
+                                alt="Slide 1"></div>
+                        <div class="carouselImage"><img
+                                src="cccc.jpg"
+                                alt="Slide 1"></div>
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+                <!-- <section class="banner2">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carouselImage"><img src="../images/MazamazaImg/28 AUG (1).png" alt="Slide 1"></div>
+                                <div class="carouselImage"><img src="../images/MazamazaImg/CHILDREN AND YOUTH HARVEST.png"
+                                        alt="Slide 1"></div>
+                                <div class="carouselImage"><img
+                                        src="../images/MazamazaImg/ADULT HARVEST AND THANKSGIVING SERVICE (1).png"
+                                        alt="Slide 1"></div>
+                    
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/MazamazaImg/SEPTEMBER.png" alt="Slide 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                        <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+                    </div>
+                    </section> -->
+    
+        </div>
+        </div>
+
+        <div class="Testimonies">
+            <div class="Testimony">
+            <h2>TESTIMONIES</h2>
+            <p> See what God has done for His people.</p>
+            <p> "Psalm 119: 46
+                I will also speak of your testimonies before kings and shall not be put to shame".
+            </p>
+        </div>
+        <div class=" Testright">
+            <div class="middle">
+                <div class="up">
+                    <p> Thanking God for saving me and my family from ghastly motor accident . Two months ago, We were coming back from our home town when we had an accident on the way back , Glory be to God no one in my family was injured. Praise the Lord!</p>
+                    
+                </div>
+
+                <div class="down">
+                    <div class="side1">
+                        <img src="immg.jpg" alt="image">
+
+                    </div>
+                    <div class="side2">
+                        <div class="text">
+                            <p1> 
+                                Bro  Issac Chinedu
+                            </p1>
+
+                        </div>
+                        <div class=" text">
+                            <p1> Tailor</p1>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="middle">
+                <div class="up">
+                    <p> I thank God for the gift of life upon I and my family. Years ago, I had zero or no knowledge of graphics design, but according to the will of God, He has granted me a certificate in graphics design. Praise the Lord!</p>
+                    
+                </div>
+
+                <div class="down">
+                    <div class="side1">
+                        <img src="img333.jpg" alt="image">
+
+                    </div>
+                    <div class="side2">
+                        <div class="text">
+                            <p1> 
+                                Mrs Chioma Samuel
+                            </p1>
+
+                        </div>
+                        <div class=" text">
+                            <p1> Fashion Designer</p1>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="middle">
+                <div class="up">
+                    <p> I want to thank GOD for my life and my family for keeping us alive from January till date, It hasn’t being easy but GOD saw us through, even when the devil tried to snatch away my only source of joy from me but God has always been faithful and loving. Praise the Lord!!</p>
+                    
+                </div>
+
+                <div class="down">
+                    <div class="side1">
+                        <img src="man.jpg" alt="image">
+
+                    </div>
+                    <div class="side2">
+                        <div class="text">
+                            <p1> 
+                                Bro  Igwe Samuel
+                            </p1>
+
+                        </div>
+                        <div class=" text">
+                            <p1>Graphic designer</p1>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            </div>
+           
+        </div>
+    </div>
+
+
+            
+
+    <div class="AboutUs">
+        <div class="Abouttop"> 
+        <h2>About Us</h2>
+        <p>Know more about our Church.</p>
+    </div>
+        <div class="aboutbody">
+            <div class="aboutleft">
+                <div class="aboutup"> 
+                    <p> We are a gospel centered church that
+                        equips culture and shaping christians</p>
+                </div>
+            
+                <div class="aboutdown">
+                    <p>To make disciples through
+                        gospel proclamation, baptize
+                        those disciples into church of
+                        christ and teach them the
+                        biblican command of Jesus
+                        Christ </p>
+                 </div>
+            </div>
+            <div class="aboutright">
+                <p> We strive to be a place where we are committed to Christ. We believe that relevant worship, fellowship and service are vital for spiritual growth. Therefore we are committed to worshipping GOD passionately, teaching the bible practically and multiplying faith filled disciples through the word of GOD.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="Service-content1"> 
+        <div class="serviceText1">
+            <h2>Givings</h2>
+            <h3>Give and it shall be given unto you</h3>
+        </div>
+        <div class="servicecontainer1">
+            <div class="image-box1">
+                <img src="tithe.png" alt="Image 1">
+                <div class="service-text">
+                <h3>Tithes & Offerings</h3>
+                <h4>Give 10 percent of your annual earnings, productions or possession  </h4>
+                </div>
+                <button>Give now</button>
+            </div>
+            <div class="image-box1">
+                <img src="give-mone.png" alt="Image 2">
+                <div class="service-text">
+                <h3>Support the Needy</h3>
+                <h4>Those who are better off have positive responsibilities to those who are in need</h4>
+                </div>
+                <button>Give now</button>
+            </div>
+            <div class="image-box1">
+                <img src="box.png" alt="Image 3">
+                <div class="service-text">
+                <h3>Donations</h3>
+                <h4>Each one must give as he has decided in his heart, For GOD love a cheerful giver</h4>
+                </div>
+                <button>Give now</button>
+            </div>
+            <div class="image-box1">
+                <img src="zakat.png" alt="Image 4">
+                <div class="service-text">
+                <h3>Seed of Faith</h3>
+                <h4>Our giving to GOD as a seed we sow and not a debt we  owe</h4>
+                </div>
+                <button>Give now</button>
+            </div>
+        </div>
+        </div>
+
+    <div class="Service-content"> 
+        <div class="serviceText">
+            <h2>Arms Of Church</h2>
+            <h3> See various Arms of our Church</h3>
+        </div>
+        <div class="servicecontainer">
+            <div class="image-box">
+                <img src="band.jpg" alt="Image 1">
+                <div class="service-text">
+                <h3>The Rock Band</h3>
+                </div>
+                <button>See More</button>
+            </div>
+            <div class="image-box">
+                <img src="choir.jpg" alt="Image 2">
+                <div class="service-text">
+                <h3>The Rock Choir</h3>
+                </div>
+                <button>See More</button>
+            </div>
+            <div class="image-box">
+                <img src="media.jpg" alt="Image 3">
+                <div class="service-text">
+                <h3>Media Dept.</h3>
+                </div>
+                <button>See More</button>
+            </div>
+            <div class="image-box">
+                <img src="guild.jpg" alt="Image 4">
+                <div class="service-text">
+                <h3>Guild Of Stewards</h3>
+                </div>
+                <button>See More</button>
+            </div>
+        </div>
+        </div>
+
+        <div class=" contacts">
+
+            <div class="contact">
+                <h3>Get in touch</h3>
+                <div class="intouch">
+                    <div class="contactInput">
+                        <input type="email" name="" placeholder="Email">
+                        <input type="text" name="" placeholder="Message here">
+                    </div>
+                    <button>Send</button>
+                </div>
+            </div>
+
+            <div class="main">
+
+            <div class="main1">
+                <div class="mainleft">
+                    <div class="churchName">
+                        <img src="logo2.png" alt="">
+                        <div>
+                        <h2>St John's Ang.</h2>
+                        <h2>Church, Brass.</h2>
+                        </div>
+                    </div>
+                    <div class="churchAddress">
+                        <img src="location.png" alt="">
+                        <div>
+                        <p>No. 30,  Ajasa street, Off Alakoto Market</p>
+                        <p>Ajegunle, Apapa, Lagos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainleft2">
+                    <h4>Home</h4>
+                    <h4>Upcoming Programs</h4>
+                    <h4>Services</h4>
+                    <h4>About Us</h4>
+                </div>
+                
+
+            </div>
+            <div class="main2">
+                <div class="left1">
+                    <h1> Contact Us:</h1>
+                    <h1> 08098777251</h1>
+
+                </div>
+                <div class="right1">
+                    <h1> Follow us:</h1>
+                    <div class="socialimg">
+                    <img src="facebook.png">
+                    <img src="whatsapp.png">
+                    <img src="instagram.png">
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+            <div class="sub">
+                <h1>Copyright | 2024 St. John's Brass</h1>
+                
+            </div>
+
+
+        </div>
+        <script src="script.js"></script>
+
+    <!-- <script src="Church.js"></script> -->
+</body>
+</html>
